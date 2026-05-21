@@ -1,0 +1,70 @@
+# Nmap 7.99 scan initiated Thu May 21 03:04:33 2026 as: /usr/lib/nmap/nmap -sn -oN scan1_host_discovery.txt 192.168.31.60/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0043s latency).
+MAC Address: D8:23:E0:3C:58:86 (Speedtech)
+Nmap scan report for DESKTOP-E4U3GF8.lan (192.168.31.94)
+Host is up (0.00017s latency).
+MAC Address: 6C:2F:80:24:70:70 (Intel Corporate)
+Nmap scan report for OPPO-A3s.lan (192.168.31.165)
+Host is up (0.18s latency).
+MAC Address: B8:C7:4A:31:C3:B7 (Guangdong Oppo Mobile Telecommunications)
+Nmap scan report for yumdvr.lan (192.168.31.60)
+Host is up.
+# Nmap done at Thu May 21 03:04:36 2026 -- 256 IP addresses (4 hosts up) scanned in 2.45 seconds
+# Nmap 7.99 scan initiated Thu May 21 03:38:54 2026 as: /usr/lib/nmap/nmap -sV -oN scan2_service_detection.txt 198.168.32.1 localhost
+Nmap scan report for host-198-168-32-1.duncancable.com (198.168.32.1)
+Host is up (0.045s latency).
+All 1000 scanned ports on host-198-168-32-1.duncancable.com (198.168.32.1) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000010s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 10.3p1 Debian 1 (protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.67 ((Debian))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 21 03:39:10 2026 -- 2 IP addresses (2 hosts up) scanned in 15.58 seconds
+# Nmap 7.99 scan initiated Thu May 21 03:41:45 2026 as: /usr/lib/nmap/nmap -A -oN scan3_aggressive.txt localhost
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000054s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 10.3p1 Debian 1 (protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.67 ((Debian))
+|_http-server-header: Apache/2.4.67 (Debian)
+|_http-title: Apache2 Debian Default Page: It works
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.99%E=4%D=5/21%OT=22%CT=1%CU=35722%PV=Y%DS=0%DC=L%G=Y%TM=6A0EB74
+OS:C%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=21)SE
+OS:Q(SP=101%GCD=2%ISR=101%TI=Z%CI=Z%II=I%TS=21)SEQ(SP=106%GCD=1%ISR=10E%TI=
+OS:Z%CI=Z%II=I%TS=22)SEQ(SP=107%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=22)SEQ(SP=1
+OS:07%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=21)OPS(O1=MFFD7ST11NWA%O2=MFFD7ST11NW
+OS:A%O3=MFFD7NNT11NWA%O4=MFFD7ST11NWA%O5=MFFD7ST11NWA%O6=MFFD7ST11)WIN(W1=F
+OS:FCB%W2=FFCB%W3=FFCB%W4=FFCB%W5=FFCB%W6=FFCB)ECN(R=Y%DF=Y%T=40%W=FFD7%O=M
+OS:FFD7NNSNWA%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)
+OS:T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S
+OS:+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=
+OS:Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G
+OS:%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 0 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 21 03:42:04 2026 -- 1 IP address (1 host up) scanned in 18.34 seconds
+# Nmap 7.99 scan initiated Thu May 21 03:42:50 2026 as: /usr/lib/nmap/nmap -p- -oN scan4_full_port.txt localhost
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000010s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Thu May 21 03:42:50 2026 -- 1 IP address (1 host up) scanned in 0.30 seconds
