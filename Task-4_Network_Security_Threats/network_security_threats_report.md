@@ -1,4 +1,4 @@
-cat << 'ENDOFFILE' > /home/yumdvr/Downloads/OIBSIP/Task-4_Network_Security_Threats/network_security_threats_report.md
+
 # Network Security Threats — Research Report
 
 **Author:** Jay Maniya  
@@ -295,4 +295,3 @@ Network security threats are constantly evolving. From simple phishing emails to
 - NIST Cybersecurity Framework — https://www.nist.gov/cyberframework
 - CISA Alerts — https://www.cisa.gov/news-events/alerts
 - CSIS Significant Cyber Incidents — https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents
-ENDOFFILE
