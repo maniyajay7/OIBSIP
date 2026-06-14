@@ -1,0 +1,13 @@
+# Nmap 7.99 scan initiated Thu May 21 03:04:33 2026 as: /usr/lib/nmap/nmap -sn -oN scan1_host_discovery.txt 192.168.31.60/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0043s latency).
+MAC Address: D8:23:E0:3C:58:86 (Speedtech)
+Nmap scan report for DESKTOP-E4U3GF8.lan (192.168.31.94)
+Host is up (0.00017s latency).
+MAC Address: 6C:2F:80:24:70:70 (Intel Corporate)
+Nmap scan report for OPPO-A3s.lan (192.168.31.165)
+Host is up (0.18s latency).
+MAC Address: B8:C7:4A:31:C3:B7 (Guangdong Oppo Mobile Telecommunications)
+Nmap scan report for yumdvr.lan (192.168.31.60)
+Host is up.
+# Nmap done at Thu May 21 03:04:36 2026 -- 256 IP addresses (4 hosts up) scanned in 2.45 seconds
